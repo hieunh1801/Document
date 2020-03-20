@@ -1,0 +1,24 @@
+site_name: hieunh
+nav:
+    - Home: 'index.md'
+    - 'User Guide':
+        - 'Writing your docs': 'writing-your-docs.md'
+        - 'Styling your docs': 'styling-your-docs.md'
+    - About:
+        - 'License': 'license.md'
+        - 'Release Notes': 'release-notes.md'
+    - Japanese:
+        - N5: 
+            - Introduction: N5-introduction.md
+            - 'Bài 1': 'Bài 1.md'
+theme:
+    name: 'material'
+    language: 'en'
+    hljs_languages:
+        python
+    palette:
+        primary: 'indigo'
+        accent: 'indigo'
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
